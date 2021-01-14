@@ -7,32 +7,14 @@
 
 ## Install
 
-```bash
-# or yarn
-$ npm install
-```
+Using npm:
 
 ```bash
-$ npm run build --watch
-$ npm run start
+$ npm install --save-dev umi-plugin-build-rename
 ```
 
-## Usage
+or using yarn:
 
-Configure in `.umirc.js`,
-
-```js
-export default {
-  plugins: [
-    ['umi-plugin-build-rename'],
-  ],
-}
+```bash
+$ yarn add umi-plugin-build-rename --dev
 ```
-
-## Options
-
-TODO
-
-## LICENSE
-
-MIT

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610632724020" clover="3.2.0">
-  <project timestamp="1610632724021" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="1" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="1" files="1" classes="1"/>
-    <file name="index.ts" path="/Users/hanshuo/Dev/SF/xiawan/umi/plugin/umi-plugin-chunk-rename/src/index.ts">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-    </file>
-  </project>
-</coverage>

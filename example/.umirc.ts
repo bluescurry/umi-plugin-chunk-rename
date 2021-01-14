@@ -1,7 +1,7 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  // plugins: [require.resolve('../lib')],
+  plugins: [require.resolve('../lib')],
   chunks: ['app'],
   /* chainWebpack: function(config, { webpack }) {
     config.merge({
