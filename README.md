@@ -17,3 +17,5 @@ or using yarn:
 ```bash
 $ yarn add umi-plugin-chunk-rename --dev
 ```
+
+## [docs](./docs/README.md)
