@@ -4,7 +4,7 @@ import path from 'path';
 import { IApi } from '@umijs/types';
 
 export default function buildRenamePlugin(api: IApi) {
-  api.chainWebpack((config) => {
+  api.chainWebpack(config => {
     const { chunks } = api.config;
 
     // 用户设置了 chunks
@@ -23,5 +23,4 @@ export default function buildRenamePlugin(api: IApi) {
 
     return config;
   });
-
 }

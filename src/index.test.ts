@@ -4,7 +4,7 @@ import { readFileSync } from 'fs';
 
 const fixtures = join(__dirname, 'fixtures');
 
-test('normal', async() => {
+test('normal', async () => {
   const cwd = join(fixtures, 'normal');
   const service = new Service({
     cwd,
@@ -22,7 +22,7 @@ test('normal', async() => {
   expect(html).toContain('umi.js');
 });
 
-test('setup chunk to default', async() => {
+test('setup chunk to default', async () => {
   const cwd = join(fixtures, 'chunk-default');
   const service = new Service({
     cwd,
@@ -40,7 +40,7 @@ test('setup chunk to default', async() => {
   expect(html).toContain('umi.js');
 });
 
-test('setup chunk to "app"', async() => {
+test('setup chunk to "app"', async () => {
   const cwd = join(fixtures, 'chunk-rename');
   const service = new Service({
     cwd,
