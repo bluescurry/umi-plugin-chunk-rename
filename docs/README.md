@@ -1,4 +1,4 @@
-# umi-plugin-build-rename
+# umi-plugin-chunk-rename
 
 ## 启动方式
 
