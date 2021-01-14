@@ -1,5 +1,6 @@
 {
   "name": "umi-plugin-chunk-rename",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "description": "重命名 umi 的打包文件",
   "authors": {
