@@ -10,11 +10,9 @@ export default function buildRenamePlugin(api: IApi) {
     // 用户设置了 chunks
     if (chunks && chunks.length > 0) {
       const lastChunk = chunks[chunks.length - 1];
-      api.logger.info(lastChunk);
 
       // 非 umi chunk 则进行处理
       if (lastChunk !== 'umi') {
-        api.logger.info('use plugin', lastChunk);
         config.entry(lastChunk).add(path.join(api.paths.absTmpPath!, 'umi.ts'));
         // 删除原有 umi chunk
         config.entryPoints.delete('umi');
