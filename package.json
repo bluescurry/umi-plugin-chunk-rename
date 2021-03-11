@@ -8,7 +8,7 @@
     "email": "18832643723@163.com"
   },
   "license": "MIT",
-  "repository": "SFTC/umi-plugin-build-rename",
+  "repository": "bluescurry/umi-plugin-chunk-rename",
   "scripts": {
     "start": "cross-env APP_ROOT=example umi dev",
     "build:example": "cross-env APP_ROOT=example umi build",
